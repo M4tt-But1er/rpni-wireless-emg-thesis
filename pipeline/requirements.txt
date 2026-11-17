@@ -1,0 +1,15 @@
+# Versions the results in this repo were produced with (Python 3.14.5, Windows 11).
+# Older versions will probably work; nothing here is pinned for a technical reason
+# except that the cached results were generated with these.
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+PyWavelets==1.9.0
+matplotlib==3.11.1
+pyarrow==25.0.0        # parquet feature caches
+torch==2.13.0          # LSTM only; the CPU build is enough (pip install torch --index-url https://download.pytorch.org/whl/cpu)
+
+# Optional: only for benchmark_rf_embedded.py, which compiles the Random Forest to C
+# with the zig C compiler (python -m ziglang cc).
+ziglang==0.16.0

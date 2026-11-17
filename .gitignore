@@ -1,0 +1,11 @@
+# Rebuilt by the scripts; not tracked
+pipeline/cache/
+pipeline/saved_models/
+pipeline/figs/
+esp32_ble_link/results/
+*.log
+__pycache__/
+*.pyc
+# Data are downloaded separately (see README)
+Vaskov Data/
+Wallace Data/

@@ -1,0 +1,6 @@
+pyserial>=3.5
+numpy
+matplotlib
+bleak                      # power_calibration.py only: the PC's own Bluetooth adapter is the independent second receiver
+# The dataset readers also need the thesis pipeline's own requirements (pandas, scipy, scikit-learn, PyWavelets):
+#   pip install -r ../pipeline/requirements.txt
